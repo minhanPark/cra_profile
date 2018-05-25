@@ -1,0 +1,25 @@
+.profile{
+  background: white;
+  width: 18%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  border-radius: 7px;
+  box-shadow: 0 8px 38px rgba(133, 133, 133, 0.3), 0 5px 12px rgba(133, 133, 133,0.22);
+}
+.columns:first-child{
+  /* width: 50%; */
+  margin: 20px auto;
+}
+
+.columns:last-child{
+  margin-left: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+@media screen and (max-width:960px){
+  .profile{
+    width: 21%;
+  }
+}
